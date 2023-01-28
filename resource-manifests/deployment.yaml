@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: react-todo-app
-        image: gaffoor/react-todo:v2
+        image: gaffoor/react-todo:v3
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80

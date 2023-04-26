@@ -1,2 +1,2 @@
-FROM --platform=linux/arm64 nginx
+FROM nginx
 COPY build /usr/share/nginx/html
